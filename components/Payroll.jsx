@@ -4,32 +4,32 @@ import React from 'react'
 export const Payroll = () => {
   return (
       <Tailwind>
-                <div className="min-h-screen w-screen flex flex-col py-[5vh] px-[5vw] gap-[4vh]">
-          <div className="title text-[#546242] text-[2.5vw] font-bold [word-spacing:6px]">
+                <div className="min-h-screen w-screen flex flex-col py-[5vh] px-[5vw] gap-is-not-working">
+          <div className="title text-[#546242] text-[2.5vw] font-bold [word-spacing:6px] mb-[20px]">
               PRINTABLE  PAY  STUB  TEMPLATE
           </div>
-          <div className="part1">
+          <div className="part1 mb-[20px]">
               {
                   array1.map((arr,rowIndex) => (
                       <div className="row flex" key={rowIndex}>
                           <div className="w-[12vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>
-                          <input className="w-[20vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                          <input className="h-full w-[20vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                           <div className="w-[12vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] text-[#546242] font-bold">{arr[2]}</div>
-                          <input className="w-[17vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                          <input className="h-full w-[17vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                           <div className="w-[12vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] text-[#546242] font-bold">{arr[4]}</div>
-                          <input className="w-[17vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                          <input className="h-full w-[17vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                       </div>
                   ))
               }
           </div>
-          <div className="part2 flex justify-between">
+          <div className="part2 flex justify-between mb-[20px]">
               <div className="table1 w-[32vw] flex flex-col">
                   <div className="flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#546242] text-[1vw] text-white font-bold">EMPLOYEE INFORMATION</div>
                   {
                       array2.map((arr, rowIndex) => (
                           <div className="row flex" key={rowIndex}>
                               <div className="w-[12vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>      
-                              <input className="w-[20vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />                  
+                              <input className="h-full w-[20vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />                  
                           </div>    
                       ))
                   }
@@ -44,14 +44,14 @@ export const Payroll = () => {
                       array3.map((arr, rowIndex) => (
                           <div className="row flex" key={rowIndex}>
                               <div className="w-[12vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>      
-                              <input className="w-[10vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />       
-                              <input className="w-[10vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
+                              <input className="h-full w-[10vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />       
+                              <input className="h-full w-[10vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
                           </div>    
                       ))
                   }
               </div>
           </div>
-          <div className="part3">
+          <div className="part3 mb-[20px]">
               <div className="headings flex">
                   <div className="w-[20vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#546242] text-[1vw] text-white font-bold">PAY DESCRIPTION</div>
                   <div className="w-[14vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#546242] text-[1vw] text-white font-bold">HOURS</div>
@@ -64,22 +64,22 @@ export const Payroll = () => {
                   array4.map((arr,rowIndex) => (
                     <div className="row flex" key={rowIndex}>
                         <div className="w-[20vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>
-                        <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
-                        <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
-                        <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
-                        <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
-                        <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                        <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                        <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                        <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                        <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                        <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                     </div>
                 ))                  
               }
               <div className="calculation flex">
                   <div className="w-[48vw] flex justify-end items-center py-[1vh] px-[2vw] border-[#bfbfbf] border-2 bg-[#595959] text-white text-[1vw] font-bold">CURRENT GROSS PAY</div>
-                  <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                  <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                   <div className="w-[14vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#595959] text-white text-[1vw] font-bold">YTD TOTAL</div>
-                  <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                  <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
               </div>
           </div>
-          <div className="part4 flex justify-between">
+          <div className="part4 flex justify-between mb-[20px]">
               <div className="table1 w-[48vw] flex flex-col">
                   <div className="headings flex">
                       <div className="w-[20vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#546242] text-white text-[1vw] font-bold">DEDUCTIONS</div>
@@ -90,15 +90,15 @@ export const Payroll = () => {
                       array5.map((arr, rowIndex) => (
                           <div className="row flex" key={rowIndex}>
                               <div className="w-[20vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>      
-                              <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />       
-                              <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
+                              <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />       
+                              <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
                           </div>    
                       ))
                   }
                   <div className="calculation flex">             
                       <div className="w-[20vw] flex justify-end items-center py-[1vh] px-[2vw] border-[#bfbfbf] border-2 bg-[#595959] text-white text-[1vw] font-bold">TOTALS</div>
-                      <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
-                      <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                      <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
+                      <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />
                   </div>        
               </div>
               <div className="table2 w-[28vw] flex flex-col">
@@ -107,15 +107,15 @@ export const Payroll = () => {
                       array6.map((arr, rowIndex) => (
                           <div className="row flex" key={rowIndex}>
                               <div className="w-[14vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#f2f2f2] text-[1vw] font-bold">{arr[0]}</div>      
-                              <input className="w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />                  
+                              <input className="h-full w-[14vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" />                  
                           </div>    
                       ))
                   }
               </div>
           </div>
-          <div className="part5 flex">
+          <div className="part5 flex mb-[20px]">
               <div className="w-[16vw] flex justify-center items-center py-[1vh] border-[#bfbfbf] border-2 bg-[#546242] text-white text-[1vw] font-bold">MESSAGES</div>       
-              <input className="w-[74vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
+              <input className="h-full w-[74vw] bg-[#f1f4ff] border-[#bfbfbf] border-2 p-1 outline-none focus:bg-white" /> 
           </div>
     </div>
     </Tailwind>
