@@ -8,7 +8,7 @@ export const Brochure = () => {
             <NoBreak>
             <div className="page1 flex flex-col h-screen">
           <div className="part1">
-                    <img src={image.src} alt="" />
+                    <img src="https://res.cloudinary.com/dxprcmmcz/image/upload/v1708490239/image_yxdqrs.png" alt="" />
           </div>
           <div className="part2 flex flex-col py-[4vh] px-[10vw]">
               <span className="text-[3vh] font-extrabold mb-[4vh]" style={{fontWeight:"900"}}>Periscope for Consumer Goods:<br/>
@@ -115,19 +115,19 @@ all seasons
                         Periscope® Platform
                         </span>
                         <div className="blocks flex justify-between">
-                            <div className="block1 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh] flex items-center justify-center py-1 text-center ">
+                            <div className="block1 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh]  py-1 text-center ">
                                 Data Management <br />
                                 & Enrichment
                             </div>
-                            <div className="block2 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh] flex items-center justify-center py-1 text-center">
+                            <div className="block2 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh]  py-1 text-center">
                                 Insights <br />
                                 Expertise
                             </div>
-                            <div className="block3 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh] flex items-center justify-center py-1 text-center">
+                            <div className="block3 border-[#1d3dd6] border-2 w-[23%] text-[0.9vh]  py-1 text-center">
                                 Implementation <br />
                                 & Client Service
                             </div>
-                            <div className="block4 border-[#1d3dd6] border-2 w-[23%]  text-[0.9vh] flex items-center justify-center py-1 text-center">
+                            <div className="block4 border-[#1d3dd6] border-2 w-[23%]  text-[0.9vh]  py-1 text-center">
                                 Capability <br />
                                 & Training
                             </div>
