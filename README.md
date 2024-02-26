@@ -8,6 +8,7 @@ npm i
 ```
 npm run dev
 ```
+### Then get your one doc api key and then create a .env file where assign the value to ONEDOC_API_KEY.
 
 ### To switch templates, go to route.ts and simply replace Brochure()with either CV() or Payroll() (they are already imported)
 
