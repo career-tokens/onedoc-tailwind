@@ -15,8 +15,9 @@ npm run dev
 ### Below are the pdfs attached:
 ## CV 2
 [CV2.pdf](https://github.com/career-tokens/onedoc-tailwind/files/14429842/CV2.pdf)
-![CV2_page-0002](https://github.com/career-tokens/onedoc-tailwind/assets/134730030/994cc760-e1e7-49aa-b18b-06c07a33745f)
 ![CV2_page-0001](https://github.com/career-tokens/onedoc-tailwind/assets/134730030/76a5c1e5-30ec-400f-9562-24f8bfc08215)
+![CV2_page-0002](https://github.com/career-tokens/onedoc-tailwind/assets/134730030/994cc760-e1e7-49aa-b18b-06c07a33745f)
+
 
 ## Brochure
 [brochure.pdf](https://github.com/career-tokens/onedoc-tailwind/files/14399931/brochure.pdf)
