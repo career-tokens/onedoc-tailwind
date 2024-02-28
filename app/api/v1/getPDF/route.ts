@@ -2,6 +2,7 @@ import { Onedoc } from "@onedoc/client";
 import { compile } from "@onedoc/react-print";
 import { readFileSync, writeFileSync } from "fs";
 import { Brochure } from "@/templates/Brochure";
+import { CV2 } from "@/templates/CV2";
 import { CV } from "@/templates/CV";
 import { Payroll } from "@/templates/Payroll";
 import { join } from "path";
@@ -10,7 +11,7 @@ const onedoc = new Onedoc(process.env.ONEDOC_API_KEY as string);
 
 export async function GET() {
   const { file, error } = await onedoc.render({
-    html: await compile(Brochure()),
+    html: await compile(CV2()),
     test: false,
     assets: [
       {
