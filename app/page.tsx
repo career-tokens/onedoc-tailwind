@@ -1,4 +1,4 @@
-import { OneDoc } from "@/community-templates/tree/main/templates/OneDoc";
+import { OneDoc } from "@/templates/OneDoc";
 import Image from "next/image";
 
 export default function Home() {
